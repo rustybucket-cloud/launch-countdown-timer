@@ -34,7 +34,7 @@ main {
         padding-top: 8em;
         background-color: hsl(236, 21%, 26%);
         background-image: url("./images/bg-stars.svg");  
-        height: 75vh;
+        min-height: 85vh;
         padding-right: 1em;
         padding-left: 1em;
         
@@ -104,9 +104,10 @@ main {
     .links {
         /* background-color: hsl(235, 16%, 14%); */
         background-image: url("./images/pattern-hills.svg");
-        height: 35vh;
+        background-color: $darkDesaturatedBlue;
+        background-repeat: no-repeat;
+        min-height: 20vh;
         position: relative;
-        
 
         i {
             font-size: 2em;
@@ -117,6 +118,7 @@ main {
             display: flex;
             align-items: center;
             height: 100%;
+            width: 50%;
             max-width: 30em;
             margin: 0 auto;
             text-align: center;

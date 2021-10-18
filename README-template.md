@@ -40,7 +40,9 @@ Users should be able to:
 
 I built my app using React hooks. I used a SASS file to style the app.
 
-I started by creating a Counter component, which would be the top of the top, which displays the header and the countdown. I created a countdown component which would be each countdown block, days, hours, minutes, seconds.
+I had a mobile-first workflow. I started by using mobile width, then expanded the screen width.
+
+I started by creating a Counter component, which would be the top of the top, which displays the header and the countdown. I created a countdown component which would be each countdown block, days, hours, minutes, seconds. I created a links component which would have the icon links to social media.
 
 ### Built with
 

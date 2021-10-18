@@ -29,7 +29,7 @@ main .timer {
   padding-top: 8em;
   background-color: #343650;
   background-image: url("./images/bg-stars.svg");
-  height: 75vh;
+  min-height: 85vh;
   padding-right: 1em;
   padding-left: 1em;
 }
@@ -102,7 +102,9 @@ main .timer .countdown .count-title {
 main .links {
   /* background-color: hsl(235, 16%, 14%); */
   background-image: url("./images/pattern-hills.svg");
-  height: 35vh;
+  background-color: #343650;
+  background-repeat: no-repeat;
+  min-height: 20vh;
   position: relative;
 }
 
@@ -119,6 +121,7 @@ main .links .icons {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  width: 50%;
   max-width: 30em;
   margin: 0 auto;
   text-align: center;
