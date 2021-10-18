@@ -104,7 +104,7 @@ main .links {
   background-image: url("./images/pattern-hills.svg");
   background-color: #343650;
   background-repeat: no-repeat;
-  min-height: 20vh;
+  min-height: 10vh;
   position: relative;
 }
 
