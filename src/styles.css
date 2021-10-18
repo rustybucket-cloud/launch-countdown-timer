@@ -1,0 +1,165 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Text';
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  padding: 0 !important;
+  max-height: 100vh;
+}
+
+main .timer {
+  padding-top: 8em;
+  background-color: #343650;
+  background-image: url("./images/bg-stars.svg");
+  height: 75vh;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+main .timer h2 {
+  font-size: 1.2em;
+  font-weight: light;
+  padding: 0 4em;
+  margin-bottom: 2.5em;
+  color: white;
+  text-align: center;
+}
+
+main .timer .counters {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  color: white;
+  width: 100%;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+main .timer .countdown {
+  height: 3em;
+  margin-bottom: 1em;
+  color: white;
+}
+
+main .timer .countdown .count {
+  position: relative;
+  bottom: 58px;
+  text-align: center;
+  color: #fb6087;
+  font-size: 2em;
+}
+
+main .timer .countdown .flip-down {
+  background-color: #2f304c;
+  height: 2em;
+  width: 100%;
+  opacity: 1;
+  margin: 0;
+  margin-bottom: .1em;
+  padding: 0;
+  border-radius: 5px;
+}
+
+main .timer .countdown .bottom {
+  background-color: #3c3e5d;
+  height: 2em;
+  width: 100%;
+  opacity: .8;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+main .timer .countdown .count-title {
+  font-size: .5em;
+  position: relative;
+  bottom: 58px;
+  text-align: center;
+  font-weight: normal;
+  color: #8486a9;
+}
+
+main .links {
+  /* background-color: hsl(235, 16%, 14%); */
+  background-image: url("./images/pattern-hills.svg");
+  height: 35vh;
+  position: relative;
+}
+
+main .links i {
+  font-size: 2em;
+  color: #8486a9;
+}
+
+main .links .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  max-width: 30em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.countdown {
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+.countdown .count {
+  position: relative;
+  bottom: 58px;
+  text-align: center;
+  color: #fb6087;
+  font-size: 2em;
+}
+
+.countdown .flip-down {
+  background-color: #2f304c;
+  height: 2em;
+  width: 100%;
+  opacity: 1;
+  margin: 0;
+  margin-bottom: .1em;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.countdown .bottom {
+  background-color: #3c3e5d;
+  height: 2em;
+  width: 100%;
+  opacity: .8;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  text-align: center;
+  font-size: .8em;
+}
+/*# sourceMappingURL=styles.css.map */
